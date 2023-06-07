@@ -1,3 +1,3 @@
-# Python Pro
+# Python Pro Exam
 
-This is a repository which contains homework projects from Python Pro course by Hillel IT School.
+This repository is a large coursework of the Hillel school
