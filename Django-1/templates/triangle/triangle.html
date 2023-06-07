@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hypotenuse Calc</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="{% url 'triangle:triangle' %}" method="get">
+        <p>{{ form.leg1.label_tag }} {{ form.leg1 }}</p>
+        <p>{{ form.leg2.label_tag }} {{ form.leg2 }}</p>
+    <input type="Submit" name="Submit" value="Calculate">
+    </form>
+    {% if hypotenuse %}
+        <p>Hypotenuse: {{ hypotenuse }}</p>
+    {% endif %}
+</body>
+</html>
